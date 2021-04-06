@@ -2,7 +2,7 @@
 
 **Structure variants calling and genotyping scripts for pan-Zea.**
 
-The general pipeline were graphically illustrated as:
+The general pipelines were graphically illustrated as:
 
 ![SV-pipeline2](https://raw.githubusercontent.com/songtaogui/imgbed/master/D%3A%5CWorks%5C77_MyGit%5CimgbedSV-pipeline2.png)
 
