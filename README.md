@@ -101,8 +101,6 @@ Code_Dir                 | Description
     Parse input names to get [SP]:
         input names should be in format of "[SP]_asmSV_XXXX.vcf"
     ------------------------------------------------------------
-                                                Songtao Gui
-                                        songtaogui@sina.com
     ```
 
 - `Call-Asm-Assemblytics/get_asmSV_seq.sh`: get the sequences of ref and alt allele of Assemblytics outputs
@@ -121,8 +119,6 @@ Code_Dir                 | Description
         2. ABS_PATH of REF_fasta
         3. ABS_PATH of Query_fasta
     ------------------------------------------------------------
-                                                Songtao Gui
-                                        songtaogui@sina.com
     ```
 
 ### NR-INS from pan-Zea_construct
@@ -152,8 +148,6 @@ Code_Dir                 | Description
         Prefix: for non-sample out vcfs, usually use Method, 
         eg: Manta
     ------------------------------------------------------------
-                                                Songtao Gui
-                                        songtaogui@sina.com
     ```
 
 ## Read‐Pairs‐based SV calling
@@ -211,8 +205,6 @@ con(no)->D->F->G->H->e
     USAGE:
     04_fmt_manta_with_seq.sh <raw_manta.vcf> <convert_allele.vcf.gz> <cpus>
     ------------------------------------------------------------
-                                                    Songtao Gui
-                                            songtaogui@sina.com
     ```
 
 - `Call-WGS-manta/05_from_sur_to_raw_manta_geno.sh`: script to replace the SURVIVOR genotypes with the raw manta genotypes for that item.
