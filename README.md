@@ -283,7 +283,7 @@ The genotyped vcf outputs were joined using `bcftools merge` with default option
 
 ## Merge all genotype results
 
-`Genotyping\ZZ_Merge-all\PANZ_SV_Geno_merge.sh`: script to merge all the genotype evidences to get the consistent genotype matrix
+`Genotyping/ZZ_Merge-all/PANZ_SV_Geno_merge.sh`: script to merge all the genotype evidences to get the consistent genotype matrix
 
 ```sh
 ------------------------------------------------------------
