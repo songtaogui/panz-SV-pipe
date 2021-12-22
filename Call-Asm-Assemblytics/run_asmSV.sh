@@ -62,6 +62,7 @@ if [ ! -s $delta ];then
 		exit 1
 	fi
 	echo "Done! Moving output ${paffile}.delta to $delta ..." >&2
+	mkdir -p $(dirname $delta) &&\
 	mv ${paffile}.delta $delta
 else
 	echo "Found $delta ..." >&2
