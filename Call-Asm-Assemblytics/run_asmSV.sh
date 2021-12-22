@@ -31,6 +31,22 @@ if [[ $# -ne 2 ]]; then
 	exit 1
 fi
 
+
+check_sftw_path(){
+	local num_tp_program=1
+	local tp_program=""
+	for tp_program in "$@"
+	do
+		if ! which $tp_program >/dev/null 2>&1 ; then
+			echo -e "\033[31m\033[7m[ERROR]\033[0m --> Program not in PATH: $tp_program " >&2
+			let num_tp_program++
+		fi
+	done
+	[ "$num_tp_program" -ne 1 ] && exit 1
+}
+
+check_sftw_path SURVIVOR Assemblytics paf2delta.py
+
 if [ ! -s $delta ];then
 	echo "generating $delta file..." >&2
 	if [ -s $paffile ];then
