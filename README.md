@@ -1,5 +1,7 @@
 # pan-Zea_SV_pipe
 
+[![DOI](https://zenodo.org/badge/355184506.svg)](https://zenodo.org/badge/latestdoi/355184506)
+
 **Structure variants calling and genotyping scripts for pan-Zea.**
 
 The general pipelines were graphically illustrated as:
