@@ -21,7 +21,9 @@ class Alignment:
         self._parse_cigar()
 
         if self.strand == "-":
-            self.parsed_cigar = self.parsed_cigar[::-1]
+            # self.parsed_cigar = self.parsed_cigar[::-1]
+            # note 2022.11.17: this would be a bug since the successor of this script did not have this operation:
+            # https://github.com/malonge/RagTag/blob/11f670b373fbbd4139df470ac676943665ac0f18/ragtag_paf2delta.py
             self.q_start, self.q_end = self.q_end, self.q_start
 
     def _parse_cigar(self):
